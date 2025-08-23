@@ -45,7 +45,8 @@ const input = document.getElementById('movieSearch');
 
 input.addEventListener('keypress', function(event) {
     if (event.key === 'Enter') {
-        event.preventDefault(); // Evita comportamento padrão do form
-        searchMovie(); // Chama a função
+        event.preventDefault();
+        searchMovie();
     }
 });
+
