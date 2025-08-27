@@ -13,9 +13,10 @@ body {
     flex-direction: column;
     align-items: center;
     margin-top: 2em;
-    gap: 20px;
+    gap: 2em;
     justify-content: center;
-    display: flex;
+    padding-bottom: 1.2em;
+
 }
 
 input, button {
@@ -115,6 +116,8 @@ button:hover {
 
     .container1 {
         padding: 0px;
+        padding-bottom: 13em;
+        padding-top: 2em;
     }
     #movies {
         flex-direction: column;
@@ -123,7 +126,6 @@ button:hover {
     }
     .movie {
         width: 90%;
-
         height: 90%;
     }
     .movie img {
